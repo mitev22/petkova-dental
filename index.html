@@ -160,6 +160,8 @@
     section{padding:60px 0}
     .topbar .right a span{display:none}
   }
+  .heroimg img,.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+  .photo{position:relative}
 </style>
 </head>
 <body>
@@ -202,7 +204,7 @@
       </div>
     </div>
     <div class="heroimg">
-      <!-- Заменете блока .ph с: <img src="../_assets/petkova-1.jpg" alt="Стоматологичен кабинет д-р Петкова"> -->
+      <img src="img/hero.jpg" alt="Petkova Dent — кабинет на ул. Арда 5, Пловдив" onerror="this.remove()">
       <div class="ph"><i class="ti ti-dental"></i><div>Място за снимка<br>на кабинета</div></div>
     </div>
   </div>
@@ -232,7 +234,7 @@
       </ul>
     </div>
     <div class="photo">
-      <!-- Заменете с: <img src="../_assets/petkova-2.jpg" alt="Д-р Галина Петкова"> -->
+      <img src="img/about.jpg" alt="Д-р Галина Петкова" style="object-position:center top" onerror="this.remove()">
       <div><i class="ti ti-photo"></i>Снимка на д-р Петкова / кабинета</div>
     </div>
   </div>
@@ -274,7 +276,7 @@
       <div class="review"><span class="stars"><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i></span><p>„Доктор Петкова е най-милата, чаровна и отзивчива лекарка! Страхотен специалист и човек! Горещо препоръчвам!"</p><div class="who">Цеца Т.</div><div class="when">21 август 2025</div></div>
       <div class="review"><span class="stars"><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i></span><p>„Внимателна млада специалистка. Дъщеря ми беше очарована и поиска да ходи дори и да няма причина."</p><div class="who">Никол П.</div><div class="when">3 юни 2026</div></div>
     </div>
-    <div class="src"><i class="ti ti-brand-google"></i> Отзивите са реални, събрани от профила на д-р Петкова в SuperDoc.</div>
+    <div class="src"><i class="ti ti-star-filled"></i> Отзивите са реални, събрани от профила на д-р Петкова в SuperDoc.</div>
   </div>
 </section>
 
